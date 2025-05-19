@@ -1,0 +1,33 @@
+{
+  "create_trip": {
+    "destination": "Paris, France",
+    "start_date": "2024-06-15T00:00:00Z",
+    "end_date": "2024-06-22T00:00:00Z",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "itinerary": {
+      "day1": {
+        "morning": "Visit Eiffel Tower",
+        "afternoon": "Louvre Museum",
+        "evening": "Seine River Cruise"
+      },
+      "day2": {
+        "morning": "Notre-Dame Cathedral",
+        "afternoon": "Luxembourg Gardens",
+        "evening": "Dinner at Le Marais"
+      }
+    }
+  },
+
+  "update_trip": {
+    "destination": "Paris, France",
+    "start_date": "2024-06-16T00:00:00Z",
+    "itinerary": {
+      "day1": {
+        "morning": "Arc de Triomphe",
+        "afternoon": "Champs-Élysées shopping",
+        "evening": "Dinner at Montmartre"
+      }
+    }
+  }
+}

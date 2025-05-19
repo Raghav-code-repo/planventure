@@ -1,5 +1,6 @@
 from app import app, db
 from models.user import User
+from models.trip import Trip
 
 def init_db():
     with app.app_context():
